@@ -7,12 +7,12 @@ public class Game {
     ArrayList<Player> players = new ArrayList<>();
 
     public Game() {
-        Player player1 = new Player(1234, "Marcus");
-        Player player2 = new Player(1234, "Christian");
-        Player player3 = new Player(1234, "Kalle");
-        players.add(player1);
-        players.add(player2);
-        players.add(player3);
+        Player p1 = new Player(15000, "Marcus");
+        Player p2 = new Player(10000, "Christian");
+        Player p3 = new Player(5000, "Kalle");
+        players.add(p1);
+        players.add(p2);
+        players.add(p3);
     }
 
     /*public static boolean hadGameData() {
@@ -34,5 +34,7 @@ public class Game {
     void saveGameData() {
 
     }
+
+
 
 }
